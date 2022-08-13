@@ -1,6 +1,6 @@
-# Populate mongoDB with Node.js
+# Populate mongoDB using Node.js
 
-#### Using ES6 modules
+#### Node.js ES6 modules
 
 ##### Required libraries
 
