@@ -1,11 +1,12 @@
-# Populate mongoDB with Node.js
+# Populate mongoDB using Node.js
 
-#### Using ES6 modules
+#### Code uses ES6 modules
 
 ##### Required libraries
 
-dotenv
-mongoose
+```sh
+npm i dotenv mongoose
+```
 
 ##### Recommended with
 
@@ -14,5 +15,15 @@ mongoose
 ##### Sequence
 
 1. create populate.js file in root
-2. set path to the data file
-3. run: node populate (file extension optional)
+
+2. in populate.js set path to the data.json file and mongoDB connection string in .env
+
+```sh
+await connectDB(process.env.MONGO_URL)
+```
+
+3. run:
+
+```sh
+node populate
+```
