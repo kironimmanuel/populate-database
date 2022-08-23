@@ -1,4 +1,4 @@
-# Populate mongoDB using Node.js
+# Populate database using mongoDB & Node.js
 
 #### Code uses ES6 modules
 
